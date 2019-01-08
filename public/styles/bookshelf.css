@@ -7,14 +7,7 @@ html {
 body{
       background-color: #1ae8cf;
   }
-#sideBar{
-background-color: black;
-height: 100vh;
-width: 60vh;
-left:0;
-float: left;
 
-}
 #bookshelveContainer{
   text-align: center;
 }
@@ -31,6 +24,11 @@ float: left;
 #myBooks {
   margin-top: 300px;
   text-align: center;
+  background-image: url(../../images/cartoonWoodGrain.jpg);
+  border: solid white 10px;
+  margin-left:5%;
+  margin-right:5%;
+
 }
 .haveRead{
     margin:5px;
