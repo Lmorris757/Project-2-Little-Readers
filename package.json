@@ -1,0 +1,28 @@
+{
+  "name": "Project-2-Little-Readers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lmorris757/Project-2-Little-Readers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lmorris757/Project-2-Little-Readers/issues"
+  },
+  "homepage": "https://github.com/Lmorris757/Project-2-Little-Readers#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  }
+}
