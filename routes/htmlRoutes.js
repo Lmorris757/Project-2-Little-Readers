@@ -2,8 +2,9 @@ var db = require("../models");
 
 module.exports = function(app) {
   // Load index page
-  app.get("/", function(req, res) {
-    db.Example.findAll({}).then(function(dbExamples) {
+  app.get("/pg1", function(req, res) {
+    res.sendFile(path.join(__dirname,
+      )).then(function(dbExamples) {
       res.render("index", {
         msg: "Welcome!",
         examples: dbExamples
