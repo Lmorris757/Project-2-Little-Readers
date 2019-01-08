@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body{
+      background-color: #1ae8cf;
+  }
+ 
+  #topContainer{
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: #60efdd;
+    top:0;
+    left:0;
+  }
+
+#navBar {
+    margin: 25px;
+    border: solid #adeb00 2px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 7px;
+    float: left;
+    margin-bottom: 5px;
+    
+}
+#insidenavBar {
+    float: left;
+    border: solid  #adeb00 2px;
+    border-radius: 20px;
+    background-color:  #75c700;
+    padding: 5px;
+}
+
+.item {
+    float: left;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    color: white;
+}
+
+.blackBorder {
+    border: solid  #adeb00 2px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+#username {
+    margin:40px;
+    border-radius: 20px;
+    padding: 7px;
+    float: right;
+    border: solid  #ce1569 2px;
+    background-color: white;
+
+    
+
+}
+#usernameInside {
+    float: right;
+    border: solid  #ce1569 2px;
+    background-color: #f41971;
+    padding: 5px;
+    border-radius: 20px; 
+}
+
+.profilePic {
+    border-radius: 90px;
+    float: right;  
+    margin:5px;
+    border: solid  #ce1569 2px; 
+}
+
+.name {
+    font-size: 50px;
+    color: white;
+    margin:30px;
+    float: right; 
+}
+
+#libraryContainer {
+
+    margin-top: 270px;
+    padding: 0;
+    width: 100%;
+    background-color: #60efdd;
+   
+}
+#libraryText{
+    margin:10px;
+    float: left;
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    margin-top:30px;
+    margin-left:30px;
+}
+#logo{
+    margin:10px;
+    border-radius: 20px;
+    border: solid #1ae8cf 2px; 
+    height:110px;
+    float: left;
+    margin-left:70px;
+}
+
+#BookList {
+    float: left;
+    margin-top:30px;
+    text-align: center;
+}
+
+.arrows {
+    height: 150px;
+    margin-left:35px;
+    margin-right: 35px;
+    box-shadow: 10px 10px;
+    background-color: gray;
+    border-radius: 500px;
+
+}
+
+.book{
+    margin:10px;
+    height:200px;
+    width:300px;
+    border: solid white 5px; 
+}
